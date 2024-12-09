@@ -89,7 +89,9 @@ By default the code prints results to the screen, saves results out as both a su
 The code can be run in one of two ways:
 
  - From the terminal via one of the scripts [here](scripts/). See each script for instructions and arguments, hopefully this is self-explanatory.
- - Directly by importing this package into your code, see the same scripts above for how. 
+ - Directly by importing this package into your code, see the same scripts above for how.
+### Example
+`python scripts/run_mot_challenge.py --BENCHMARK MOT20 --SPLIT_TO_EVAL train --TRACKERS_TO_EVAL botsort --METRICS HOTA --USE_PARALLEL False --NUM_PARALLEL_CORES 1`
 
 ## Quickly evaluate on supported benchmarks
 
